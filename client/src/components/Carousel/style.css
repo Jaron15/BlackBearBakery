@@ -1,0 +1,17 @@
+.carousel-img {
+    margin-top: -50%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.carousel {
+    width: 100%;
+ }
+
+.text-shadow {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media screen and (max-width: 770px) {
+    .mobile-view {
+       display: none;
+   } 
+}
