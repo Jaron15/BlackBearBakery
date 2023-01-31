@@ -2,6 +2,7 @@ import React from "react";
 import ControlledCarousel from '../components/Carousel';
 import { Container } from 'react-bootstrap';
 import Bio from '../components/Bio';
+import TodoList from "../components/ToDoList";
 
 
 
@@ -11,6 +12,7 @@ const Home = () => {
       <Container>
         <ControlledCarousel />
         <Bio />
+        <TodoList />
       </Container>
     </div>
   );
